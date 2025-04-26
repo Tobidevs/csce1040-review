@@ -22,6 +22,8 @@ int ItemToPurchase::getItemQuantity() {
 void ItemToPurchase::setItemQuantity(int quantity) {
     itemQuantity = quantity;
 }
-void ItemToPurchase::printItemCost() {
-    cout << itemName << " " << itemQuantity << " @ $" << itemPrice << " = $" << (itemPrice * itemQuantity) << endl;
+void Food::printFoodCost() {
+    cout << itemName << " " << itemQuantity << " @ $" << itemPrice << " = $" << itemPrice * itemQuantity << endl;
+
 }
+
